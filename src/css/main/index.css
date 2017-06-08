@@ -1,0 +1,31 @@
+/*.animal {
+  background-color: black;
+  color: white;
+}
+.bear {
+  &:extend(.animal);
+  background-color: brown;
+}*/
+/*
+@media screen {
+  .selector {  /!* ruleset inside nested media - top level extend works *!/
+    color: blue;
+  }
+  @media (min-width: 1023px) {
+    .selector {  /!* ruleset inside nested media - top level extend works *!/
+      color: blue;
+    }
+  }
+}
+
+.topLevel:extend(.selector) {} /!* top level extend matches everything *!/*/
+/*.foo (@bg: #f5f5f5, @color: #900) {
+  background: @bg;
+  color: @color;
+}
+.unimportant {
+  .foo(1);
+}
+.important {
+  .foo(2) !important;
+}*/

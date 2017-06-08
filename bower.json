@@ -1,0 +1,22 @@
+{
+  "name": "myproject",
+  "description": "",
+  "main": "gulpfile.js",
+  "authors": [
+    "曾小玲 <18667121691@163.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/ling2013/myproject",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "bootstrap": "boostrap#^3.3.7",
+    "angular": "^1.6.2",
+    "modernizr": "^3.3.1"
+  }
+}
